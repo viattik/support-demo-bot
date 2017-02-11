@@ -1,0 +1,31 @@
+{
+  "name": "support-demo-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viattik/support-demo-bot.git"
+  },
+  "author": "Andrei Sierkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viattik/support-demo-bot/issues"
+  },
+  "homepage": "https://github.com/viattik/support-demo-bot#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "http": "0.0.0",
+    "node-telegram-bot-api": "^0.26.0",
+    "websocket": "^1.0.24"
+  },
+  "engines": {
+    "node": "6.9.3",
+    "npm": "4.0.5"
+  }
+}
